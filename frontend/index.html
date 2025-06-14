@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Coletor Atmosférico Portátil - Tratamento de Água</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <div class="container">
+    <div class="form-side">
+      <h1>Coletor Atmosférico</h1>
+      <form id="waterForm">
+        <label for="temperature">Temperatura (°C)</label>
+        <input
+          type="number"
+          id="temperature"
+          name="temperature"
+          placeholder="Ex: 25.5"
+          min="-50"
+          max="60"
+          step="0.1"
+          required
+        />
+
+        <label for="pressure">Pressão (hPa)</label>
+        <input
+          type="number"
+          id="pressure"
+          name="pressure"
+          placeholder="Ex: 1013"
+          min="800"
+          max="1100"
+          step="0.1"
+          required
+        />
+
+        <label for="humidity">Umidade (%)</label>
+        <input
+          type="number"
+          id="humidity"
+          name="humidity"
+          placeholder="Ex: 75"
+          min="0"
+          max="100"
+          step="0.1"
+          required
+        />
+
+        <label for="windSpeed">Velocidade do vento (m/s)</label>
+        <input
+          type="number"
+          id="windSpeed"
+          name="windSpeed"
+          placeholder="Ex: 5.4"
+          min="0"
+          max="50"
+          step="0.1"
+          required
+        />
+
+        <button type="submit">Calcular Litros Captados</button>
+      </form>
+    </div>
+
+    <div class="result-side">
+      <div class="result-title">Litros captados</div>
+      <div id="result" class="result-value">0 L</div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
