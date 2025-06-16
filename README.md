@@ -29,3 +29,19 @@ pip install -r requirements.txt
 ```bash
 cd backend
 ```
+
+### Execute o arquivo run.bat para iniciar a API:
+
+```bash
+run.bat
+```
+
+## 🖥️ Front-End
+
+1. Abra o arquivo index.html com a extensão Live Server no VSCode:
+
+2. Preencher o formulário
+
+3. O arquivo Javascript gerencia a interação com a API, enviando os dados do formulário e exibindo o resultado 
+
+
