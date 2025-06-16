@@ -10,3 +10,4 @@ Esse projeto tem como objetivo prever a quantidade de água que pode ser captada
 
 ---
 
+## 🚀 Como Usar 
