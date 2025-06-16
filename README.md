@@ -13,3 +13,19 @@ Esse projeto tem como objetivo prever a quantidade de água que pode ser captada
 ## 🚀 Como Usar 
 
 ### Clone o Repositório:
+
+```bash
+git clone https://github.com/RodrygoYamasaki/PluviaPure.git
+```
+
+### Instale as dependências:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Navegue até a pasta backend
+
+```bash
+cd backend
+```
