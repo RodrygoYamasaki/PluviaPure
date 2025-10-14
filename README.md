@@ -10,6 +10,18 @@ Esse projeto tem como objetivo prever a quantidade de água que pode ser captada
 
 ---
 
+## 🛠️ Tecnologias e Bibliotecas
+
+- **Python:** Linguagem de programação principal para desenvolvimento do projeto.
+- **Jupyter Notebooks:** Ambiente para desenvolvimento interativo e documentação do código.
+- **Matplotlib:** Para criação de visualizações estatísticas.
+- **Seaborn:** Para gráficos e visualizações personalizadas.
+- **Flask:** Framework web para criar APIs em Python.
+- **Flask-CORS:** Permite comunicação entre backend e frontend.
+- **Scikit-Learn:** Biblioteca para criação e treino de modelos de machine learning.
+
+---
+
 ## 🚀 Como Usar 
 
 ### Clone o Repositório:
